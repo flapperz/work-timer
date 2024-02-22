@@ -1,5 +1,5 @@
 import datetime
-import calendar
+# import calendar
 import argparse
 
 log_fname = "/Users/flap/Library/Mobile Documents/iCloud~is~workflow~my~workflows/Documents/work-timer-log.txt"
