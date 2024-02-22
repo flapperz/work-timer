@@ -103,11 +103,8 @@ def main(args):
     is_verbose = args.verbose
     
     raw_data = read_data(log_fname)
-    
     day_entries_map = parse_data(raw_data)
-    
     today_ymd = get_today_ymd()
-    
     report = generate_report(day_entries_map, today_ymd, is_verbose)
     
     print(report)
