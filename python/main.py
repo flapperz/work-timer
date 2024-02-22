@@ -1,6 +1,5 @@
 import datetime
 import calendar
-import pandas as pd
 import argparse
 
 log_fname = "/Users/flap/Library/Mobile Documents/iCloud~is~workflow~my~workflows/Documents/work-timer-log.txt"
